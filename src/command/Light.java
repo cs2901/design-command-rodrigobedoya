@@ -1,7 +1,7 @@
 package command;
 
 public class Light {
-    private boolean isOn = false;
+    protected boolean isOn = false;
     public void  on(){
         isOn = true;
         System.out.println("Light is "+isOn);
